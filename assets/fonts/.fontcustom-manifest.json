@@ -126,6 +126,10 @@
       "codepoint": 61722,
       "source": "svg-files-for-custom-font/instagram.svg"
     },
+    "itchio": {
+      "codepoint": 61747,
+      "source": "./itchio.svg"
+    },
     "lab-flask": {
       "codepoint": 61723,
       "source": "svg-files-for-custom-font/lab-flask.svg"

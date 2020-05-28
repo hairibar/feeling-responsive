@@ -20,7 +20,6 @@ header:
 
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
-{% include _improve_content.html %}
 
 ## Edit Navigation   {#edit-navigation}
 
@@ -306,8 +305,6 @@ I only added one other javascript-module: [`backstretch`][3] by Scott Robbin. Th
 /foundation/bower_components/foundation/js/foundation.topbar.js'
 /foundation/js/jquery.backstretch.js'
 ~~~
-
-{% include _improve_content.html %}
 
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
