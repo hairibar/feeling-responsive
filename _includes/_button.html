@@ -1,0 +1,6 @@
+<div class="small-4 text-center columns">
+	<a class="button large radius {{ include.button.style }}" 
+		href="{{ url }}{{ include.button.url }}"{% if include.button.url contains 'http' %} target="_blank" {% endif %}>
+		{{ include.button.text }}
+	</a>
+</div>
