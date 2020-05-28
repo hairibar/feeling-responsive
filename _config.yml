@@ -17,9 +17,8 @@ slogan: "Aitor Iribar's Portfolio"
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description:
 
-# TODO: Write credits
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
+credits: 'Created by Aitor Iribar with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>, based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.'
 
 # TODO: Change author
 # Main author of the website
@@ -31,11 +30,6 @@ author: phlow
 #
 url: 'https://phlow.github.io'
 baseurl: '/feeling-responsive'
-
-# TODO: What even is this? Wait until published.
-# This is for the editing function in _/includes/improve_content
-# Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 
 # TODO: Update this with correct URL
 # This URL points directly to the images directory making
