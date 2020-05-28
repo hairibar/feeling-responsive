@@ -9,10 +9,19 @@ format: frontpage
     </div><!-- /.row -->
 </div><!-- /#header-home -->
 
+<div class="row t60">
+    {% include _button.html button=page.guide-button-1 %}
+    {% include _button.html button=page.guide-button-2 %}
+    {% include _button.html button=page.guide-button-3 %}
+</div>
+
+<h2 class="row t60" style="text-align: center;">
+    {{ page.widgets-introduction.text }}
+</h2>
 
 {% comment %}
 *
-* First check, if widget is empty or not by checking if there is a title
+* Widgets
 *
 {% endcomment %}
 <div class="row t60">
@@ -31,34 +40,15 @@ format: frontpage
 
 
 
-{% comment %}
-*
-* First check, if there is a call for action-button
-*
-{% endcomment %}
-{% if page.callforaction.url contains 'http' %}
-{% assign url = '' %}
-{% else %}
-{% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
-{% endif %}
-{% if page.callforaction %}
-    <div class="row t60 b60">
-        <div class="small-12 text-center columns">
-            <a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
-        </div><!-- /.small-12.columns -->
-    </div><!-- /.row -->
-{% endif %}
-
-
 
 {% comment %}
 *
 * First check, if there are any posts at all
 *
-{% endcomment %}
 
-{% unless site.posts == empty %}
-    <div class="row t30 b20 homepage">
+
+* * {% unless site.posts == empty %}
+*     <div class="row t30 b20 homepage">
         <div class="small-12 columns">
             {% for post in site.posts limit:1 %}
             {% if post.image.homepage %}
@@ -76,10 +66,10 @@ format: frontpage
             {% endif %}
             {% endfor %}
         </div><!-- /.small-12.columns -->
-    </div><!-- /.row -->
-
-
-    <div class="row">
+*     </div><!-- /.row -->
+* 
+* 
+*     <div class="row">
         <div class="medium-6 columns">
             {% for post in site.posts limit:1 %}
             {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% endif %}
@@ -96,16 +86,17 @@ format: frontpage
             <p><strong>{{ site.data.language.more_articles }}</strong></p>
             {% include list-posts entries='3' offset='1' %}
         </div><!-- /.medium-7.columns -->
-    </div><!-- /.row -->
-{% endunless %}
-
-
-{% comment %}
-*
-* Finally, if there is content, spit it out.
-*
-{% endcomment %}
-
-<div class="row">
-    {{ content }}
-</div><!-- /.row -->
+*     </div><!-- /.row -->
+* {% endunless %}
+* 
+* 
+* {% comment %}
+* *
+* * Finally, if there is content, spit it out.
+* *
+* {% endcomment %}
+* 
+* <div class="row">
+*     <!--{{ content }}-->
+* </div><!-- /.row -->
+* {% endcomment %}
