@@ -5,11 +5,11 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
+header: no
 
-#TODO: Write short introduction
-header:
-  image_fullwidth: header_unsplash_12.jpg
-
+intro:
+  text: Hi! I'm <em>Aitor Iribar</em>, a generalist game programmer with design sensibilities.
+  profile-pic: profile-pic.png
 
 #TODO: Add urls
 guide-button-1:
