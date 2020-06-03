@@ -1,22 +1,23 @@
-- name: GitHub
-  url: https://github.com/hairibar
-  class: icon-github
-  title: "Look at some code"
-
 - name: Twitter
   url: http://twitter.com/hairibar
   class: icon-twitter
   title: "See what I'm up to"
+
+- name: itchio
+  url: https://hairibar.itch.io/
+  class: icon-itchio
+  title: "Play my games"
+
+- name: GitHub
+  url: https://github.com/hairibar
+  class: icon-github
+  title: "Look at some code"
 
 - name: Soundcloud
   url: http://soundcloud.com/hairibar
   class: icon-soundcloud
   title: "Listen to my music"
 
-- name: itchio
-  url: https://hairibar.itch.io/
-  class: icon-itchio
-  title: "Play my games"
 
 # - name: linkedin
 #   url: https://linkedin.com/aitoriribar/
