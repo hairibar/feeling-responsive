@@ -5,10 +5,11 @@ subheadline: Templates
 title:  "Page/Post Right Sidebar"
 teaser: "This is an example of page/post with a sidebar on the right."
 breadcrumb: true
+
+category: my-work
 tags:
     - post format
-categories:
-    - design
+
 image:
     thumb: gallery-example-2-thumb.jpg
     title: gallery-example-2.jpg

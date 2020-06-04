@@ -5,10 +5,13 @@ subheadline: Templates
 title:  "Page/Post With Left Sidebar"
 teaser: "This is a example of page/post with a sidebar on the left."
 breadcrumb: true
+
+
+
+category: my-work
 tags:
-    - post format
-categories:
-    - design
+    - featured
+
 image:
     thumb: gallery-example-3-thumb.jpg
     title: gallery-example-3.jpg

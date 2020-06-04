@@ -1,0 +1,16 @@
+---
+layout: page-fullwidth
+format: post-list
+---
+
+{% for post in site.posts%}
+    {% if page.filter-tag %}
+        {% if post.tags contains page.filter-tag %}
+            {% include PostPreview.html %}
+        {% endif %}
+    {% elsif page.filter-category %}
+        {% if post.categories contains page.filter-category %}
+            {% include PostPreview.html %}
+        {% endif %}
+    {% endif %}
+{% endfor %}

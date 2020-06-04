@@ -1,26 +1,24 @@
 ---
-#
-# Use the widgets beneath and the content will be
-# inserted automagically in the webpage. To make
-# this work, you have to use › layout: frontpage
-#
+
 layout: frontpage
 header: no
 
 intro:
-  text: Hi! I'm <em>Aitor Iribar</em>, a generalist game programmer with design sensibilities.
+  text: Hi! I'm <strong>Aitor Iribar</strong>, a generalist game programmer with design sensibilities.
   profile-pic: profile-pic.png
 
 #TODO: Add urls
 guide-button-1:
   text: Play my games
+  url: https://hairibar.itch.io/
 
 guide-button-2:
   text: See my work
+  url: my-best-work
 
 guide-button-3:
   text: Look at some code
-
+  url: https://github.com/hairibar
 
 widgets-introduction:
   text: Here's a preview of my best work
