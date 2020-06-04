@@ -1,0 +1,37 @@
+<aside>
+	<div class="panel radius">
+        {% if page.facts.title %}
+            <h3>{{page.facts.title}}</h3>
+        {% endif %}
+        
+		<ul>
+            {% if page.facts.role %}
+                <li><strong>Role: </strong>{{page.facts.role}}</li>
+            {% endif %}
+
+            {% if page.facts.platforms %}
+                <li><strong>Platforms: </strong>{{page.facts.platforms}}</li>
+            {% endif %}
+
+            {% if page.facts.platform %}
+                <li><strong>Platform: </strong>{{page.facts.platform}}</li>
+            {% endif %}
+
+            {% if page.facts.engine %}
+                <li><strong>Engine: </strong>{{page.facts.engine}}</li>
+            {% endif %}
+
+            {% if page.facts.release-date %}
+                <li><strong>Release date: </strong>{{page.facts.release-date}}</li>
+            {% endif %}
+
+        </ul>
+        {% if page.facts.play-at %}
+            <a class="button up medium radius text-center" href={{page.facts.play-at.url}}>{{page.facts.play-at.text}}</a>
+        {% endif %}
+    </div>
+
+    {% for screenshot in page.screenshots %}
+        {% include Screenshot.html screenshot=screenshot %}
+    {% endfor %}
+</aside>
