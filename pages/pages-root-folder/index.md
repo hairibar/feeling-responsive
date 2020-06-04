@@ -7,7 +7,6 @@ intro:
   text: Hi! I'm <strong>Aitor Iribar</strong>, a generalist game programmer with design sensibilities.
   profile-pic: profile-pic.png
 
-#TODO: Add urls
 guide-button-1:
   text: Play my games
   url: https://hairibar.itch.io/
@@ -24,10 +23,10 @@ widgets-introduction:
   text: Here's a preview of my best work
 
 widget1:
-  title: "BBBB"
-  url: 'http://phlow.github.io/feeling-responsive/blog/'
-  image: widget-1-302x182.jpg
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+  title: "Bouncing Bass Brawl Bonanza"
+  url: /my-work/bouncing-bass-brawl-bonanza/
+  image: BBBB\BBBB_Thumbnail_1280x720.png
+  text: 'My baby. A weird, highly polished game made almost entirely by myself.'
 
 widget2:
   title: "Tongued"
