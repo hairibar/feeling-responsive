@@ -1,0 +1,29 @@
+---
+layout: default
+format: about
+---
+
+<div class="row t60">
+  <div class="small-12 large-4 columns text-center">
+    <img src="{{ site.urlimg }}profile-pic.png" style="border-radius: 50%; object-fit: contain; max-height: 200px;"/>
+
+{%for item in page.data-boxes %}
+    <div class="panel radius text-left t30">
+      <h4>{{item.box.title}}</h4>
+      <ul>
+        {% for item in item.box.contents %}
+            <il style="display: list-item;">{{item}}</il>
+        {% endfor %}
+      </ul>
+    </div>
+{% endfor %}
+    
+  </div>
+  
+
+  <!-- About me text -->
+	<div class="small-12 large-8 columns">
+        {{content}}
+  </div>
+  
+</div>
