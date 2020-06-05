@@ -3,11 +3,10 @@ layout: page
 header: no
 
 title:  "Hairibar.Ragdoll: Physics-Driven Animation"
-teaser: "A Unity package that drives ragdolls and makes them play keyframed animations while keeping physics behaviour. My thesis."
+teaser: "A Unity package that drives ragdolls and makes them play keyframed animations while keeping physics behaviour. Also, my thesis."
 
 image:
-    thumb: Tongued\Tongued_Thumbnail_1280x720.png
-    title: Tongued\Tongued_Thumbnail_1280x720.png
+    thumb: TFG\TFG_DignifiedSidewalk.gif
 
 breadcrumb: false
 show_meta: false
@@ -21,10 +20,20 @@ look-at-code-button:
     url: https://github.com/hairibar/Hairibar.Ragdoll
 ---
 
+{% include WebmEmbed.html video="TFG/TFG_DignifiedSidewalk_Compressed.webm" %}
+{% include alert text="Here it is in action. Don't feel too sorry for the poor guy." %}
+
+{% include WebmEmbed.html video="TFG/TFG_KeyframedSidewalk_Compressed.webm"%}
+{% include alert text="Here's the same animation without Hairibar.Ragdoll for comparison." %}
+
+
 ## It's versatile.
 - Free your animators from the tedious labour of hand-animating secondary motion.
 - Use it with tight settings to get realistic characters that react to collisions.
 - Use it with loose settings to get silly, physicsy motion.
+
+{% include WebmEmbed.html video="TFG/TFG_UndignifiedSidewalk_Compressed.webm"%}
+{% include alert text="I <strong>did</strong> say silly, right?" %}
 
 ## It's transparent.
 The system lets the existing animation tech do its work, reads the resulting pose and then drives the ragdoll towards that pose. 
@@ -51,7 +60,7 @@ You can also make your own data types that work with specific `RagdollDefinition
 ## It's integrated with Mecanim.
 Hairibar.Ragdoll comes with StateMachineBehaviours like SetRagdollAnimationProfileOnEnter and SetRagdollPowerProfileOnEnter. These behaviours allow you to easily tie specific sets of parameters to specific animation states.
 
-## How do I get it?
+## Okay, so how do I get it?
 It's publicly hosted in GitHub, and distributed via Unity's Package Manager. You can add it to your projects by adding the following lines to your manifest.json:
 {% highlight json %}
 {
