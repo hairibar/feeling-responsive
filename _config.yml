@@ -15,7 +15,7 @@ slogan: "Aitor Iribar's Portfolio"
 
 # TODO: Write description
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: THIS IS A DESCRIPTION THAT IS YET TO BE FILLED
+description: Aitor Iribar's portfolio.
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: 'Created by Aitor Iribar with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>, based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.'
@@ -38,10 +38,6 @@ baseurl: '/feeling-responsive'
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
 urlimg: 'https://phlow.github.io/feeling-responsive/images/'
-
-# TODO: Use own logo
-# Logo size is 600x80 pixels
-logo: "logo.png"
 
 # Plugins
 plugins:
