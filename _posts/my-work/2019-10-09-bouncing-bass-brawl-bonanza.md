@@ -5,8 +5,7 @@ sidebar: left_fact-sheet
 header:
     image_fullwidth: BBBB/BBBB_Banner_3000x842.png
 
-subheadline:
-title:  "Bouncing Bass Brawl Bonanza"
+title: "Bouncing Bass Brawl Bonanza"
 teaser: "My baby. A weird, highly polished game made almost entirely by myself."
 image:
     thumb: BBBB\BBBB_Thumbnail_1280x720.png
