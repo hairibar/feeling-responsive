@@ -1,1 +1,5 @@
-<img class="t20" src="{{site.urlimg}}{{include.screenshot}}">
+{% capture path %}{{site.urlimg}}{{include.screenshot}}{% endcapture %}
+
+<a href="{{path}}">
+    <img class="t20" src="{{path}}"/>
+</a>

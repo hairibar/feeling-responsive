@@ -31,7 +31,12 @@
         {% endif %}
     </div>
 
-    {% for screenshot in page.screenshots %}
-        {% include Screenshot.html screenshot=screenshot %}
-    {% endfor %}
+    <ul class="clearing-thumbs" data-clearing>
+        {% for screenshot in page.screenshots %}
+            <li class="t20">
+                {% include Screenshot.html screenshot=screenshot %}
+            </li>
+        {% endfor %}
+    </ul>
+    
 </aside>
