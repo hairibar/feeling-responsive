@@ -4,7 +4,6 @@ layout: post-list
 #
 # Content
 #
-subheadline: 
 title: "All of my work"
 teaser: "Here you can see everything I've made. Well, at least the subset that I've put up."
 

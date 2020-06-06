@@ -4,9 +4,8 @@ layout: post-list
 #
 # Content
 #
-subheadline: 
 title: "My Best Work"
-teaser: "This the work that I'm most proud of."
+teaser: "This is the work that I'm most proud of."
 
 #
 # Styling
