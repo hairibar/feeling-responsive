@@ -7,7 +7,7 @@ title: "About me"
 
 header: no
 
-permalink: /about-me
+permalink: /about-me/
 
 data-boxes:
     - box: 

@@ -16,7 +16,7 @@ header: no
 #
 # Metainformation & Customization
 #
-permalink: /my-best-work
+permalink: /my-best-work/
 
 #
 # Post List configuration

@@ -16,7 +16,7 @@ header: no
 #
 # Metainformation & Customization
 #
-permalink: /all-of-my-work
+permalink: /all-of-my-work/
 
 #
 # Post List configuration
