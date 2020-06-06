@@ -35,7 +35,7 @@ url: 'https://hairibar.github.io'
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://phlow.github.io/feeling-responsive/images/'
+urlimg: 'https://hairibar.github.io/images/'
 
 # Plugins
 plugins:
