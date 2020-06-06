@@ -39,26 +39,38 @@ look-at-code-button:
 The system lets the existing animation tech do its work, reads the resulting pose and then drives the ragdoll towards that pose. 
 
 This makes it inherently compatible with any system that modifies animation, such as IK. 
+![]({{site.urlimg}}/TFG/TFG_Inspector_Transparent.png)
 
 ## It's easy to use.
 Most configuration is done through artist-friendly `ScriptableObjects`. Their editors have been heavily customized to make them easy and safe to use.
 
 Most parameters are sliders that go from 0 to 1, with clearly explained effects.
+![An example of a RagdollAnimationProfile]({{site.urlimg}}/TFG/TFG_Inspector_DignifiedRaganim.png)
 
-## It's generic
+## It's generic.
 Unlike with many of Unity's animation features, all rig types are supported, not just humanoids. 
 
 The available bones are listed in a `RagdollDefinition` asset. After that, per-individual-bone parameters can be set in other assets, such as `RagdollAnimationProfile` and `RagdollWeightDistribution`.
+<div class="row">
+  <div class="small-12 large-6 column t10">
+    <img src="{{site.urlimg}}/TFG/TFG_Inspector_ChickenRagdef.png"/>
+  </div>
+  <div class="small-12 large-6 column t10">
+    <img src="{{site.urlimg}}/TFG/TFG_Inspector_ChickenRagwgt.png"/>
+  </div>
+</div>
 
 ## It's expandable.
 Writing scripts that modify the ragdoll's behaviour is supported. 
 
 You can implement `IBoneProfileModifier` to dynamically affect the way the ragdoll matches the animation, or you can implement `ITargetPoseModifier` to post-process the pose that the regular animation system has provided before the ragdoll follows it. Many of the built-in features have been implemented through these interfaces!
+![]({{site.urlimg}}/TFG/TFG_Inspector_Modifiers.png)
 
 You can also make your own data types that work with specific `RagdollDefinitions`, in case your modifiers need to be easily-configurable. Just inherit `RagdollProfile`!
 
 ## It's integrated with Mecanim.
 Hairibar.Ragdoll comes with StateMachineBehaviours like SetRagdollAnimationProfileOnEnter and SetRagdollPowerProfileOnEnter. These behaviours allow you to easily tie specific sets of parameters to specific animation states.
+![]({{site.urlimg}}/TFG/TFG_Inspector_Mecanim.png)
 
 ## Okay, so how do I get it?
 It's publicly hosted in GitHub, and distributed via Unity's Package Manager. You can add it to your projects by adding the following lines to your manifest.json:
