@@ -27,6 +27,7 @@ author: aitor-iribar
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 url: 'https://hairibar.github.io'
+baseurl: ""
 
 # TODO: Update this with correct URL
 # This URL points directly to the images directory making
