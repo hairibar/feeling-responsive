@@ -20,10 +20,10 @@ look-at-code-button:
     url: https://github.com/hairibar/Hairibar.Ragdoll
 ---
 
-{% include WebmEmbed.html video="TFG/TFG_DignifiedSidewalk_Compressed.webm" %}
+{% include WebmEmbed.html video="TFG/TFG_DignifiedSidewalk.webm" %}
 {% include alert text="Here it is in action. Don't feel too sorry for the poor guy." %}
 
-{% include WebmEmbed.html video="TFG/TFG_KeyframedSidewalk_Compressed.webm"%}
+{% include WebmEmbed.html video="TFG/TFG_KeyframedSidewalk.webm"%}
 {% include alert text="Here's the same animation without Hairibar.Ragdoll for comparison." %}
 
 
@@ -32,8 +32,11 @@ look-at-code-button:
 - Use it with tight settings to get realistic characters that react to collisions.
 - Use it with loose settings to get silly, physicsy motion.
 
-{% include WebmEmbed.html video="TFG/TFG_UndignifiedSidewalk_Compressed.webm"%}
+{% include WebmEmbed.html video="TFG/TFG_UndignifiedSidewalk.webm"%}
 {% include alert text="I <strong>did</strong> say silly, right?" %}
+
+{% include WebmEmbed.html video="TFG/TFG_Hanging.mp4" %}
+{% include alert text="You can use it in plenty of situations. Here, the right hand is locked - pure animation, no physics. There is only one frame of animation in this video - the rest of the moment is just physics." %}
 
 ## It's transparent.
 The system lets the existing animation tech do its work, reads the resulting pose and then drives the ragdoll towards that pose. 
@@ -69,7 +72,7 @@ You can implement `IBoneProfileModifier` to dynamically affect the way the ragdo
 You can also make your own data types that work with specific `RagdollDefinitions`, in case your modifiers need to be easily-configurable. Just inherit `RagdollProfile`!
 
 ## It's integrated with Mecanim.
-Hairibar.Ragdoll comes with StateMachineBehaviours like SetRagdollAnimationProfileOnEnter and SetRagdollPowerProfileOnEnter. These behaviours allow you to easily tie specific sets of parameters to specific animation states.
+Hairibar.Ragdoll comes with `StateMachineBehaviours` like `SetRagdollAnimationProfileOnEnter` and `SetRagdollPowerProfileOnEnter`. These behaviours allow you to easily tie specific sets of parameters to specific animation states.
 ![]({{site.urlimg}}/TFG/TFG_Inspector_Mecanim.png)
 
 ## Okay, so how do I get it?
