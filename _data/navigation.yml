@@ -18,6 +18,6 @@
   url: "/blog"
   side: right
 
-- title: "Search"
-  url: "/search/"
-  side: right
+# - title: "Search"
+#   url: "/search/"
+#   side: right
