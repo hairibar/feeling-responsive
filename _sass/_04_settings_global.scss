@@ -207,7 +207,7 @@ $global-radius: 3px;
 // $header-font-family: $font-family-serif;
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
-// $header-font-color: $jet;
+ $header-font-color: $dark-blue;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -960,7 +960,7 @@ $crumb-slash: "/";
 // $include-html-panel-classes: $include-html-classes;
 
 // We use these to control the background and border styles
-$panel-bg: $grey-1;
+$panel-bg: scale-color($paper-white, $lightness: -10%);
 // $panel-border-style: solid;
 // $panel-border-size: 1px;
 
