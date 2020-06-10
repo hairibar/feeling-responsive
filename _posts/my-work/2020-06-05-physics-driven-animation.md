@@ -77,7 +77,7 @@ Hairibar.Ragdoll comes with `StateMachineBehaviours` like `SetRagdollAnimationPr
 
 ## Okay, so how do I get it?
 It's publicly hosted in GitHub, and distributed via Unity's Package Manager. You can add it to your projects by adding the following lines to your manifest.json:
-{% highlight json %}
+{% highlight javascript %}
 {
   "dependencies": {
     ...
