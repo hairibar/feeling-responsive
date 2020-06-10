@@ -11,14 +11,22 @@
 
 */
 
+// Colour palette from BBBB itch page.
+$main-blue: #25667A;
+$paper-white: #E9E0D3;
+$dark-blue: #1b4a59;
+$detail-red: #C6242F;
 
+$error-pink: #ff24e2;
+
+$link-color: $detail-red;
 
 /* Basics
 ------------------------------------------------------------------- */
 
-$text-color:       	#111;
+$text-color:       	$dark-blue;
 $body-font-color: 	$text-color;
-$body-bg: 			#fdfdfd;
+$body-bg: 			$paper-white;
 
 
 
@@ -26,20 +34,20 @@ $body-bg: 			#fdfdfd;
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
 ------------------------------------------------------------------- */
 
-$ci-1: #334D5C;		// dark turquoise
+$ci-1: $main-blue;		// Buttons
 $ci-2: #45B29D;		// turquoise
 $ci-3: #EFC94C;		// yellow
 $ci-4: #E27A3F;		// orange
 $ci-5: #DF4949;		// red
-$ci-6: #A1D044;     // green
+$ci-6: #C6242F;      // Used for navbar
 
 
 
 /* Foundation Color Variables
 ------------------------------------------------------------------- */
 
-$primary-color: $ci-1;
-$secondary-color: $ci-6;
+$primary-color: $main-blue;
+$secondary-color: $detail-red;
 $alert-color: $ci-5;
 $success-color: $ci-6;
 $warning-color: $ci-4;
@@ -72,49 +80,49 @@ $grey-16: #0B0B0B;
 /* Topbar-Navigation
 ------------------------------------------------------------------- */
 
-$topbar-bg-color: $body-bg;
+$topbar-bg-color: $main-blue;
 $topbar-bg: $topbar-bg-color;
 
 
 $topbar-dropdown-toggle-color: $ci-1;
 
-$topbar-link-color: #000;
-$topbar-link-color-hover: #000;
-$topbar-link-color-active: #000;
-$topbar-link-color-active-hover: #000;
+$topbar-link-color: $paper-white;
+$topbar-link-color-hover: $paper-white;
+$topbar-link-color-active: $paper-white;
+$topbar-link-color-active-hover: $main-blue;
 
-$topbar-dropdown-label-color: $ci-2;
-$topbar-dropdown-link-bg-hover: $ci-6;
+$topbar-dropdown-label-color: $paper-white;
+$topbar-dropdown-link-bg-hover: $paper-white;
 
-$topbar-link-bg-active: $ci-6; // Active Navigation Link
-$topbar-link-bg-hover: $ci-6;
-$topbar-link-bg-active-hover: $ci-2;
+$topbar-link-bg-active: $detail-red; // Active Navigation Link
+$topbar-link-bg-hover: $detail-red;
+$topbar-link-bg-active-hover: $paper-white;
 
 
-$topbar-dropdown-bg: $ci-6; // Background Mobile Navigation
-$topbar-dropdown-link-color: #000;
-$topbar-dropdown-link-bg: $ci-2;
+$topbar-dropdown-bg: $main-blue; // Background Mobile Navigation
+$topbar-dropdown-link-color: $paper-white;
+$topbar-dropdown-link-bg: $error-pink;
 
-$topbar-menu-link-color-toggled: $ci-1;
-$topbar-menu-icon-color-toggled: $ci-1;
-$topbar-menu-link-color: #000;
-$topbar-menu-icon-color: #000;
-$topbar-menu-link-color-toggled: $ci-6;
-$topbar-menu-icon-color-toggled: $ci-6;
+$topbar-menu-link-color-toggled: $paper-white;
+$topbar-menu-icon-color-toggled: $paper-white;
+$topbar-menu-link-color: $paper-white;
+$topbar-menu-icon-color: $paper-white;
+$topbar-menu-link-color-toggled: $paper-white;
+$topbar-menu-icon-color-toggled: $paper-white;
 
 
 
 /* Footer
 ------------------------------------------------------------------- */
 
-$footer-bg: $grey-8;
+$footer-bg: $main-blue;
 $footer-color: #fff;
 $footer-link-color: $ci-6;
 
 
-$subfooter-bg: $grey-13;
-$subfooter-color: $grey-8;
-$subfooter-link-color: $grey-8;
+$subfooter-bg: $dark-blue;
+$subfooter-color: $paper-white;
+$subfooter-link-color: $paper-white;
 
 
 
