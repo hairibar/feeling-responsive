@@ -24,19 +24,19 @@ widgets-introduction:
 
 widget1:
   title: "Bouncing Bass Brawl Bonanza"
-  url: /my-work/bouncing-bass-brawl-bonanza
+  url: /bouncing-bass-brawl-bonanza
   image: BBBB\BBBB_Thumbnail_1280x720.png
   text: 'My baby. A weird, highly <strong>polished</strong> game made almost entirely by myself.'
 
 widget2:
   title: "Tongued"
-  url: '/my-work/tongued'
+  url: '/tongued'
   image: Tongued\Tongued_Thumbnail_1280x720.png
   text: A physics-based <strong>online multiplayer</strong> game about chameleons licking your friends. The best game I've worked on.
 
 widget3:
   title: "Hairibar.Ragdoll: Physics-Driven Animation"
-  url: '/my-work/physics-driven-animation'
+  url: '/physics-driven-animation'
   image: TFG/TFG_DignifiedSidewalk.gif
   text: A Unity package that drives ragdolls and makes them play keyframed animations while keeping physics behaviour. Also, my thesis.
 

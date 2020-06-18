@@ -72,7 +72,7 @@ This piece of UI stays on screen for most of the game. A constant reminder of wh
 *Battle Royale* games manage to **downplay** the importance of winning, while *Mario Party* can't stop pointing at the score.
 
 ## My own take on all of this
-I have thought a lot about this for [Bouncing Bass Brawl Bonanza](/my-work/bouncing-bass-brawl-bonanza). I wanted to avoid ruining friendships, both because it's the right thing to do, and because the its audience is so small that the only ruined friendships would be mine.
+I have thought a lot about this for [Bouncing Bass Brawl Bonanza](/bouncing-bass-brawl-bonanza). I wanted to avoid ruining friendships, both because it's the right thing to do, and because the its audience is so small that the only ruined friendships would be mine.
 Here’s what I’ve done to that end:
 
 {% include alert text="For context, BBBB is a team fight party game where all the players look identical. Some of the things that work in it may not work for other types of games." %}

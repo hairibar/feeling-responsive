@@ -2,6 +2,8 @@
 layout: page
 header: no
 
+permalink: /physics-driven-animation
+
 title:  "Hairibar.Ragdoll: Physics-Driven Animation"
 teaser: "A Unity package that drives ragdolls and makes them play keyframed animations while keeping physics behaviour. Also, my thesis."
 

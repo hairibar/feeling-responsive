@@ -36,6 +36,8 @@ screenshots:
 final-play-button:
     text: Play it
     url: https://hairibar.itch.io/bouncing-bass-brawl-bonanza
+
+permalink: bouncing-bass-brawl-bonanza
 ---
 
 {%include YoutubeVideo.html embedURL="https://www.youtube.com/embed/tVz5fH-6xwg"%}
