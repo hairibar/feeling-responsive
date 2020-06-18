@@ -13,13 +13,12 @@
   class: icon-github
   title: "Look at some code"
 
+- name: linkedin
+  url: https://www.linkedin.com/in/aitor-iribar-b283871b0/
+  class: icon-linkedin
+  title: "Let's pretend to be serious"
+
 - name: Soundcloud
   url: http://soundcloud.com/hairibar
   class: icon-soundcloud
   title: "Listen to my music"
-
-
-# - name: linkedin
-#   url: https://linkedin.com/aitoriribar/
-#   class: icon-linkedin
-#   title: "Let's pretend to be serious"
