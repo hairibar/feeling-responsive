@@ -13,7 +13,7 @@ image:
 breadcrumb: false
 show_meta: false
 
-category: my-work
+category: My Work
 tags:
     - featured
 
@@ -53,3 +53,6 @@ You can only do three things:
 So what's the catch? All the fish are **identical**, and their short terms memory means that you only see who belongs to what team briefly.
 
 {%include GuideButton.html button=page.final-play-button %}
+
+{% include alert text="Read more about BBBB:" %}
+{% include list-posts tag = "BBBB" %}

@@ -1,0 +1,7 @@
+<div class="flex-video t20" style="margin-bottom: 5px;">  
+    <video 
+        {% if include.autoplay %} autoplay {% endif %} 
+        loop width="1280" height="720" controls>
+        <source src="{{site.urlimg}}{{include.video}}" type="video/webm"/>
+    </video>
+</div>

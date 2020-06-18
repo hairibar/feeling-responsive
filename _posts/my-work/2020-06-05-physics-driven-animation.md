@@ -11,7 +11,7 @@ image:
 breadcrumb: false
 show_meta: false
 
-category: my-work
+category: My Work
 tags:
     - featured
 
@@ -20,22 +20,21 @@ look-at-code-button:
     url: https://github.com/hairibar/Hairibar.Ragdoll
 ---
 
-{% include WebmEmbed.html video="TFG/TFG_DignifiedSidewalk.webm" %}
+{% include VideoEmbed.html video="TFG/TFG_DignifiedSidewalk.webm" type="webm" autoplay = true %}
 {% include alert text="Here it is in action. Don't feel too sorry for the poor guy." %}
 
-{% include WebmEmbed.html video="TFG/TFG_KeyframedSidewalk.webm"%}
+{% include VideoEmbed.html video="TFG/TFG_KeyframedSidewalk.webm" type="webm" autoplay = true %}
 {% include alert text="Here's the same animation without Hairibar.Ragdoll for comparison." %}
-
 
 ## It's versatile.
 - Free your animators from the tedious labour of hand-animating secondary motion.
 - Use it with tight settings to get realistic characters that react to collisions.
 - Use it with loose settings to get silly, physicsy motion.
 
-{% include WebmEmbed.html video="TFG/TFG_UndignifiedSidewalk.webm"%}
-{% include alert text="I <strong>did</strong> say silly, right?" %}
+{% include VideoEmbed.html video="TFG/TFG_UndignifiedSidewalk.webm" type="webm" autoplay = true %}
+{% include alert text="I <strong>did</strong> say silly, right?"%}
 
-{% include WebmEmbed.html video="TFG/TFG_Hanging.mp4" %}
+{% include VideoEmbed.html video="TFG/TFG_Hanging.mp4"  type="mp4" autoplay = true  %}
 {% include alert text="You can use it in plenty of situations. Here, the right hand is locked - pure animation, no physics. There is only one frame of animation in this video - the rest of the moment is just physics." %}
 
 ## It's transparent.

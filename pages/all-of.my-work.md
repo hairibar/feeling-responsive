@@ -20,5 +20,5 @@ permalink: /all-of-my-work/
 #
 # Post List configuration
 #
-filter-category: my-work
+filter-category: My Work
 ---
