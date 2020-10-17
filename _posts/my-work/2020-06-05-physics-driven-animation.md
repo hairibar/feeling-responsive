@@ -22,11 +22,7 @@ look-at-code-button:
     url: https://github.com/hairibar/Hairibar.Ragdoll
 ---
 
-{% include VideoEmbed.html video="TFG/TFG_DignifiedSidewalk.webm" type="webm" autoplay = true %}
-{% include alert text="Here it is in action. Don't feel too sorry for the poor guy." %}
-
-{% include VideoEmbed.html video="TFG/TFG_KeyframedSidewalk.webm" type="webm" autoplay = true %}
-{% include alert text="Here's the same animation without Hairibar.Ragdoll for comparison." %}
+{%include YoutubeVideo.html embedURL="https://www.youtube.com/embed/ByNPbbACf40"%}
 
 ## It's versatile.
 - Free your animators from the tedious labour of hand-animating secondary motion.
@@ -77,7 +73,7 @@ Hairibar.Ragdoll comes with `StateMachineBehaviours` like `SetRagdollAnimationPr
 ![]({{site.urlimg}}/TFG/TFG_Inspector_Mecanim.png)
 
 ## Okay, so how do I get it?
-It's publicly hosted in GitHub, and distributed via Unity's Package Manager. You can add it to your projects by adding the following lines to your manifest.json:
+It's publicly hosted in [GitHub](https://github.com/hairibar/Hairibar.Ragdoll), and distributed via Unity's Package Manager. You can add it to your projects by adding the following lines to your manifest.json:
 {% highlight javascript %}
 {
   "dependencies": {
