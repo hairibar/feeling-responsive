@@ -18,8 +18,12 @@ tags:
     - featured
 
 look-at-code-button:
-    text: Look at the code
-    url: https://github.com/hairibar/Hairibar.Ragdoll
+  text: Look at the code
+  url: https://github.com/hairibar/Hairibar.Ragdoll
+
+read-thesis-button:
+  text: Read the thesis
+  url: /assets/hosted-files/Physics-Driven Character Animation.pdf
 ---
 
 {%include YoutubeVideo.html embedURL="https://www.youtube.com/embed/ByNPbbACf40"%}
@@ -79,7 +83,7 @@ It's publicly hosted in [GitHub](https://github.com/hairibar/Hairibar.Ragdoll), 
   "dependencies": {
     ...
     "com.hairibar.naughtyattributes": "https://github.com/hairibar/NaughtyAttributes.git#v2.2.1",
-    "com.hairibar.engineextensions": "https://github.com/hairibar/Hairibar.EngineExtensions.git#v1.1.0",
+    "com.hairibar.engineextensions": "https://github.com/hairibar/Hairibar.EngineExtensions.git#v1.2.2",
     "com.hairibar.ragdoll": "https://github.com/hairibar/Hairibar.Ragdoll.git#upm"
     ...
   }
@@ -89,7 +93,8 @@ It's publicly hosted in [GitHub](https://github.com/hairibar/Hairibar.Ragdoll), 
 More detailed instructions (and possibly more up to date ones, too) can be found at the [repository itself](https://github.com/hairibar/Hairibar.Ragdoll).
 
 ## How does it work?
-I'm currently writing the thesis, which will, once finished, explain the inner workings in detail. Sorry for keeping you waiting. 
-For now, you can go through the code if you like!
+Hairibar.Ragdoll was my end-of-degree project. For an in-depth look, you can read the thesis [here]({{ site.url }}/assets/hosted-files/Physics-Driven Character Animation.pdf).
+A demo project and a manual are coming in the future.
 
 {% include GuideButton.html button=page.look-at-code-button %}
+{% include GuideButton.html button=page.read-thesis-button %}
