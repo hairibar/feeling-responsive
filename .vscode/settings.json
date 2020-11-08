@@ -6,5 +6,16 @@
         "markdown",
         "latex",
         "plaintext"
-    ]
+    ],
+    "files.exclude": {
+        "_site/": true,
+        ".gitattributes": true,
+        ".gitignore": true,
+        ".jekyll-cache": true,
+        "CNAME": true,
+        "Gemfile": true,
+        "Gemfile.lock": true,
+        "google8175734cb6abff81.html": true,
+        "LICENSE": true
+    }
 }
