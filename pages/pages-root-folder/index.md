@@ -23,46 +23,22 @@ widgets-introduction:
   text: Here's a preview of my best work
 
 widget1:
-  title: "Bouncing Bass Brawl Bonanza"
-  url: /bouncing-bass-brawl-bonanza
-  image: BBBB\BBBB_Thumbnail_1280x720.png
-  text: 'My baby. A weird, highly <strong>polished</strong> game made almost entirely by myself.'
+  title: "Tale of Jade"
+  url: /tale-of-jade
+  image: ToJ\ToJ_Thumbnail_1280x720px.png
+  text: "A 2.5D metroidvania set in the age of the Three Kingdoms."
 
 widget2:
   title: "Tongued"
   url: '/tongued'
   image: Tongued\Tongued_Thumbnail_1280x720.png
-  text: A physics-based <strong>online multiplayer</strong> game about chameleons licking your friends. The best game I've worked on.
+  text: A physics-based <strong>online multiplayer</strong> game about chameleons licking your friends.
 
 widget3:
   title: "Hairibar.Ragdoll: Physics-Driven Animation"
   url: '/physics-driven-animation'
   image: TFG/TFG_DignifiedSidewalk.gif
   text: A Unity package that drives ragdolls and makes them play keyframed animations while keeping physics behaviour. Also, my thesis.
-
-#
-# Use the call for action to show a button on the frontpage
-#
-# To make internal links, just use a permalink like this
-# url: /getting-started/
-#
-# To style the button in different colors, use no value
-# to use the main color or success, alert or secondary.
-# To change colors see sass/_01_settings_colors.scss
-#
-
-
-# callforaction:
-#   url: https://tinyletter.com/feeling-responsive
-#   text: Inform me about new updates and features ›
-#   style: alert
-
-
-
-# callforaction:
-#   url: https://tinyletter.com/feeling-responsive
-#   text: Inform me about new updates and features ›
-#   style: alert
 
 permalink: /index.html
 
