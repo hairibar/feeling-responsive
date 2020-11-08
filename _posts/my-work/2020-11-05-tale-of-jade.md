@@ -42,13 +42,12 @@ final-play-button:
     url: https://ke-studio.itch.io/tale-of-jade
 ---
 
-# Introduction
 Tale of Jade was bigger than any other project I'd worked on previously. It was also what kept me busy during the pandemic most of the way through 2020.
 
 ## What did I do in it?
 - [I developed a custom 2D physics system.](#custom-2d-physics)
 - [I developed a pipeline for exporting Blender renders and importing them as animations in Unity.](#blender-spritesheet-pipeline)
-- I built procedural spline-based mesh tools on top of SpriteShape.
+- [I built procedural spline-based mesh tools on top of SpriteShape.](#procedural-spline-based-mesh-tools)
 - I designed and the developed the listened sequence UI.
 - I designed and implemented all audio through FMOD.
 - I developed an easy to use wrapper for poolable FX.
@@ -60,15 +59,13 @@ While the game was prototyped with Box2D, it soon became obvious that we had to 
 
 In KE.Physics, a KEBody casts a set of rays horizontally and vertically every step. These rays determine how far the body will move in each axis. This approach means that, unlike in Box2D, where interpenetrations are allowed and then corrected through forces, KEBodies at no point penetrate other colliders. This is extremely important for the high accelerations that appear in the game.
 
-INSERT KEBODY GIZMO
+![]({{site.urlimg}}/ToJ/ToJ_KEPhysics_Inspector.png)
 
 A core feature of KE.Physics is its support for sloped surfaces. KEBodies have a simulationVelocity member, which, while the body is grounded, behaves relative to the ground. With a simulationVelocity of (1, 0), the body will go right, which may include going up a slope if it's shallow enough. 
 
 Abstracting slopes in this way made implementing common platformer mechanics (such as pushing an object) much easier, as it removes the need to take slopes into account.
 
 KE.Physics also allows a handy API for querying collision on each side of the character's collision box. For example, the `IsGrounded` property simply uses `keBody.GetCollisionData(CardinalDirection.Down)`.
-
-INSERT KEBODY INSPECTOR??
 
 ## Blender spritesheet pipeline
 We went for a mixed 2D and 3D art-style. After some time, we found that 2D rigs significantly limited the animation quality. 
@@ -80,10 +77,12 @@ The pipeline consists of two pieces.
 2. A custom asset importer for Unity that imports the exporter's result as an animation clip.
 
 For the exporter, I used [an existing plugin](https://github.com/theloneplant/blender-spritesheets) as a foundation. I heavily expanded upon it, adding a lot of configuration, a normal map pass, the ability to export marker positions...
-INSERT EXPORTER SCREENSHOT
 
-The importer was built from the ground up, and behaves just like Unity's built-in importers, including a preview.
-INSERT IMPORTER SCREENSHOT?
+![]({{site.urlimg}}/ToJ/ToJ_KESpritesheet_Exporter.png)
+
+The importer was built from the ground up, and behaves just like Unity's built-in importers, including a preview. The generated animation clip behaves just like any other imported animation too.
+
+![]({{site.urlimg}}/ToJ/ToJ_KESpritesheet_Importer.png)
 
 The final pipeline looks like this:
 1. **Animation authoring**
@@ -101,6 +100,22 @@ The final pipeline looks like this:
     3. The textures are loaded and sliced as spritesheets, following the sizes defined in the metadata.
     4. An animation clip is created with the frames keyframes with the correct timing.
     5. Marker positions are added as child object animations.
+
+
+
+## Procedural spline-based mesh tools
+I built two similar tools on top of SpriteShape. Both use SpriteShape's curve editor and generated mesh, and create an additional mesh with a particular shape.
+
+The first tool was used for the darkness that surrounds most levels. SpriteShape's mesh is completely dark. To achieve a gradient from black to transparent, the tool generates an extruded mesh. The UVs of this mesh are then used to gradually approach an alpha of 0.
+
+SHOW DARKNESS
+
+The second tool was used to make grounds and walls. An extrusion of SpriteShape's mesh is made along the Z axis, creating a ground that follows the curve. To avoid perfectly straight grounds, the vertices of this extrusion are offset in the Y direction with some perlin noise.
+
+SHOW SPRITESHAPE_GROUND
+
+Most levels in the second tool as a foundation, which enabled the designer to quickly build and edit level geometry. 
+
 
 ## The team
 This game was made by [KEStudio](https://twitter.com/KEStudio_es), composed of the following people:
