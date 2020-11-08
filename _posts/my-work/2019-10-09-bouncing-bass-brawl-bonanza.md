@@ -14,8 +14,6 @@ breadcrumb: false
 show_meta: false
 
 category: My Work
-tags:
-    - featured
 
 facts:
     role: Everything.
