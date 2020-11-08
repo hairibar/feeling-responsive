@@ -108,13 +108,11 @@ I built two similar tools on top of SpriteShape. Both use SpriteShape's curve ed
 
 The first tool was used for the darkness that surrounds most levels. SpriteShape's mesh is completely dark. To achieve a gradient from black to transparent, the tool generates an extruded mesh. The UVs of this mesh are then used to gradually approach an alpha of 0.
 
-SHOW DARKNESS
-
 The second tool was used to make grounds and walls. An extrusion of SpriteShape's mesh is made along the Z axis, creating a ground that follows the curve. To avoid perfectly straight grounds, the vertices of this extrusion are offset in the Y direction with some perlin noise.
 
-SHOW SPRITESHAPE_GROUND
+{% include VideoEmbed.html video="ToJ/ToJ_SplineMeshes.mp4"  type="mp4" autoplay = false %}
 
-Most levels in the second tool as a foundation, which enabled the designer to quickly build and edit level geometry. 
+Most levels use the second tool as a foundation, which enabled the designer to quickly build and edit level geometry. 
 
 
 ## The team
