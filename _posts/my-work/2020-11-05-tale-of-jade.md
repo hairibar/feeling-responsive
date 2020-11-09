@@ -48,7 +48,7 @@ Tale of Jade was bigger than any other project I'd worked on previously. It was 
 - [I developed a custom 2D physics system.](#custom-2d-physics)
 - [I developed a pipeline for exporting Blender renders and importing them as animations in Unity.](#blender-spritesheet-pipeline)
 - [I built procedural spline-based mesh tools on top of SpriteShape.](#procedural-spline-based-mesh-tools)
-- I designed and the developed the listened sequence UI.
+- [I designed and the developed the listened sequence UI.](#listened-sequence-ui)
 - I designed and implemented all audio through FMOD.
 - I developed an easy to use wrapper for poolable FX.
 - I wrote almost all of the gameplay code. 
@@ -113,6 +113,15 @@ The second tool was used to make grounds and walls. An extrusion of SpriteShape'
 {% include VideoEmbed.html video="ToJ/ToJ_SplineMeshes.mp4"  type="mp4" autoplay = false %}
 
 Most levels use the second tool as a foundation, which enabled the designer to quickly build and edit level geometry. 
+
+## Listened Sequence UI
+In Tale of Jade, the player executes certain sequences of buttons to use their abilities. I designed and developed a fancy UI that gives feedback on button presses, showing what the current sequence is, whether they did something wrong...
+
+{% include VideoEmbed.html video="ToJ/ToJ_SequenceGUI_Examples.webm"  type="webm" autoplay = false %}
+
+As a side effect, spamming buttons is pretty fun!
+
+{% include VideoEmbed.html video="ToJ/ToJ_SequenceGUI_Spam.webm"  type="webm" autoplay = false %}
 
 
 ## The team
